@@ -5,14 +5,14 @@ class Roue{
         double M;
 
     public:
-        // Constructeurss
+        // Constructeurs
         Roue(double, int);
         Roue(double, double);
 
         // Getteurs
-        int getZ() const;
-        double getM() const;
-        double getD() const;
+        int getZ();
+        double getM();
+        double getD();
         
         // Setteurs
         void setZ(int);

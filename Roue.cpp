@@ -17,18 +17,11 @@ Roue::Roue(double _D, double _M){
 }
 
 // Getteurs
-int Roue::getZ(){ return Z; }
-double Roue::getM(){ return M; }
-double Roue::getD(){ return D; }
+int Roue::getZ() { return Z; }
+double Roue::getM() { return M; }
+double Roue::getD() { return D; }
 
 // Setteurs
 void Roue::setZ(int _Z){ Z = _Z; }
 void Roue::setM(double _M){ M = _M; }
 void Roue::setD(double _D){ D = _D; }
-
-int main(){
-    Roue maRoue(3.,2);
-    maRoue.setZ(2.0);
-    cout << maRoue.getZ() << endl;
-    return 0;
-}
